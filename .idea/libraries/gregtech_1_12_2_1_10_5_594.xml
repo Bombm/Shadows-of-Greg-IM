@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gregtech-1.12.2-1.10.5.594">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/gregtech-1.12.2-1.10.5.594.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

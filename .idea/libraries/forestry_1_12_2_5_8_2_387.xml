@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="forestry_1.12.2-5.8.2.387">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/forestry_1.12.2-5.8.2.387.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jei_1.12.2-4.16.1.301.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

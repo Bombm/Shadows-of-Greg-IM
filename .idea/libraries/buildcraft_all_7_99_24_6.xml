@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="buildcraft-all-7.99.24.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/buildcraft-all-7.99.24.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
