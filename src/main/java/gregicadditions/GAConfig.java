@@ -1,5 +1,6 @@
 package gregicadditions;
 
+import gregicadditions.Gregicadditions;
 import net.minecraftforge.common.config.Config;
 
 @Config(modid = Gregicadditions.MODID)
@@ -194,6 +195,9 @@ public class GAConfig {
 
 		@Config.Comment("Add Assembling Machine recipes for Impregnated items")
 		public boolean AssemblerRecipes = true;
+
+		@Config.Comment("Add Autoclave recipes for combs")
+		public boolean AutoclaveRecipes = true;
 	}
 
 	@Config.Comment("Config options for GregsConstruct features")

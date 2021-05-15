@@ -21,6 +21,41 @@
       "bacterial_reflective_glass": {
         "textures": {
           "all": "gregtech:blocks/casings/transparent/bacterial_reflective_glass"
+        },
+        "battery_alloy_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/battery_alloy_glass"
+          }
+        },
+        "palladium_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/palladium_glass"
+          }
+        },
+        "titanium_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/titanium_glass"
+          }
+        },
+        "tungsten_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/tungsten_glass"
+          }
+        },
+        "iridium_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/iridium_glass"
+          }
+        },
+        "osmium_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/osmium_glass"
+          }
+        },
+        "lanthanum_glass": {
+          "textures": {
+            "all": "gregtech:blocks/casings/transparent/lanthanum_glass"
+          }
         }
       }
     }

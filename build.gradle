@@ -55,6 +55,10 @@ repositories {
         name = "tterrag maven"
         setUrl("http://maven.tterrag.com/")
     }
+    maven {
+        name = "tinkers"
+        setUrl("file:/libs-local/")
+    }
 }
 
 dependencies {
