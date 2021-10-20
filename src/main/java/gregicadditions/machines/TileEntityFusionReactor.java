@@ -28,6 +28,7 @@ import gregtech.api.multiblock.FactoryBlockPattern;
 import gregtech.api.multiblock.PatternMatchContext;
 import gregtech.api.recipes.Recipe;
 import gregtech.api.recipes.RecipeMaps;
+import gregtech.api.recipes.recipeproperties.FusionEUToStartProperty;
 import gregtech.api.render.ICubeRenderer;
 import gregtech.common.blocks.*;
 import gregtech.common.metatileentities.MetaTileEntities;
@@ -44,7 +45,7 @@ import net.minecraftforge.items.IItemHandlerModifiable;
 public class TileEntityFusionReactor extends RecipeMapMultiblockController {
 	private final int tier;
 	private EnergyContainerList inputEnergyContainers;
-	private int heat = 0; // defined in TileEntityFusionReactor but serialized in FusionRecipeLogic
+	private long heat = 0; // defined in TileEntityFusionReactor but serialized in FusionRecipeLogic
 
 	public TileEntityFusionReactor(ResourceLocation metaTileEntityId, int tier) {
 		super(metaTileEntityId, RecipeMaps.FUSION_RECIPES);
@@ -250,12 +251,12 @@ public class TileEntityFusionReactor extends RecipeMapMultiblockController {
 		@Override
 		protected Recipe findRecipe(long maxVoltage, IItemHandlerModifiable inputs, IMultipleTankHandler fluidInputs) {
 			Recipe recipe = super.findRecipe(maxVoltage, inputs, fluidInputs);
-			return (recipe != null && recipe.getIntegerProperty("eu_to_start") <= energyContainer.getEnergyCapacity()) ? recipe : null;
+			return (recipe != null && recipe.getRecipePropertyStorage().getRecipePropertyValue(FusionEUToStartProperty.getInstance(), 0L) <= energyContainer.getEnergyCapacity()) ? recipe : null;
 		}
 
 		@Override
 		protected boolean setupAndConsumeRecipeInputs(Recipe recipe) {
-			int heatDiff = recipe.getIntegerProperty("eu_to_start") - heat;
+			long heatDiff = recipe.getRecipePropertyStorage().getRecipePropertyValue(FusionEUToStartProperty.getInstance(), 0L) - heat;
 			if (heatDiff <= 0) {
 				return super.setupAndConsumeRecipeInputs(recipe);
 			}
@@ -270,14 +271,14 @@ public class TileEntityFusionReactor extends RecipeMapMultiblockController {
 		@Override
 		public NBTTagCompound serializeNBT() {
 			NBTTagCompound tag = super.serializeNBT();
-			tag.setInteger("Heat", heat);
+			tag.setLong("Heat", heat);
 			return tag;
 		}
 
 		@Override
 		public void deserializeNBT(NBTTagCompound compound) {
 			super.deserializeNBT(compound);
-			heat = compound.getInteger("Heat");
+			heat = compound.getLong("Heat");
 		}
 	}
 }

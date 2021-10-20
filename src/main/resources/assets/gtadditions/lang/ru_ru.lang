@@ -424,6 +424,25 @@ gtadditions.machine.replicator.luv.name=Улучшенный Replicator V
 gtadditions.machine.replicator.zpm.name=Улучшенный Replicator VI
 gtadditions.machine.replicator.uv.name=Улучшенный Replicator VII
 
+# Bundler
+recipemap.bundler.name=Wire Bundling
+gtadditions.machine.bundler.lv.name=Basic Bundler
+gtadditions.machine.bundler.mv.name=Advanced Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler II
+gtadditions.machine.bundler.ev.name=Advanced Bundler III
+gtadditions.machine.bundler.iv.name=Advanced Bundler IV
+gtadditions.machine.bundler.luv.name=Elite Bundler
+gtadditions.machine.bundler.luv.tooltip=Lapinotron 3000
+gtadditions.machine.bundler.zpm.name=Elite Bundler II
+gtadditions.machine.bundler.zpm.tooltip=Lapinotron 6000
+gtadditions.machine.bundler.uv.name=Elite Bundler III
+gtadditions.machine.bundler.uv.tooltip=Lapinotron 9000
+
+# Machine Access Interface
+gtadditions.machine.machine_access_interface.name=Machine Access Interface
+gtadditions.machine.machine_access_interface.tooltip=Specialized Access Bus required for the Processing Array to hold the machines the Processing Array is operating on. Only holds valid machines.
+
+# Pump
 gtadditions.machine.pump.iv.name=Улучшенный Pump IV
 gtadditions.machine.pump.luv.name=Улучшенный Pump V
 gtadditions.machine.pump.zpm.name=Улучшенный Pump VI
@@ -441,6 +460,36 @@ gtadditions.machine.fusion_reactor.uv.name=Fusion Reactor Computer Mark 3
 
 gtadditions.machine.coke_item_bus.name=[Deprecated] Coke Oven Chute
 gtadditions.machine.coke_fluid_hatch.name=[Deprecated] Coke Oven Faucet
+
+gtadditions.multiblock.preview.location_end=very end
+
+# Plasma Turbine
+recipemap.plasma_generator.name=Плазменное турбинное топливо
+
+# Fusion Reactor
+gtadditions.machine.fusion_reactor.luv.name=Компьютер термоядерного реактора Марк 1
+gtadditions.machine.fusion_reactor.zpm.name=Компьютер термоядерного реактора Марк 2
+gtadditions.machine.fusion_reactor.uv.name=Компьютер термоядерного реактора Марк 3
+gregtech.multiblock.fusion_reactor_mk1.description=Термоядерный реактор Марк 1 - это большая многоблочная структура, используемая для слияния веществ и синтеза более тяжёлых элементов. Марк 1 может использовать входные разъемы уровней LuV, ZPM и UV. Каждый разъём увеличивает внутренний буфер энергии на 10 млн. EU.
+gregtech.multiblock.fusion_reactor_mk2.description=Термоядерный реактор Марк 2 - это большая многоблочная структура, используемая для слияния веществ и синтеза более тяжёлых элементов. Марк 2 может использовать входные разъемы уровней ZPM и UV. Каждый разъём увеличивает внутренний буфер энергии на 20 млн. EU.
+gregtech.multiblock.fusion_reactor_mk3.description=Термоядерный реактор Марк 3 - это большая многоблочная структура, используемая для слияния веществ и синтеза более тяжёлых элементов. Марк 3 может использовать входные разъемы уровня UV. Каждый разъём увеличивает внутренний буфер энергии на 40 млн. EU.
+gregtech.multiblock.fusion_reactor.heat=Теплота: %d
+
+# Processing Array
+recipemap.processing_array.name=Processing Array
+gtadditions.machine.processing_array.name=Processing Array
+gregtech.multiblock.processing_array.description=The Processing Array combines up to %d single block machine(s) in a single multiblock, effectively easing automation.
+gtadditions.multiblock.processing_array.distinct=Distinct Buses:
+gtadditions.multiblock.processing_array.distinct2=[Click %s to Toggle]
+gtadditions.multiblock.processing_array.distinct.yes=§aYes
+gtadditions.multiblock.processing_array.distinct.no=§cNo
+gtadditions.multiblock.processing_array.distinct.info=If enabled, each bus will be treated as fully distinct from each other for recipe lookup. Useful for things like Extruder Shapes, Laser Lenses, etc..
+gtadditions.multiblock.processing_array.locked=§cMachine Hatch Locked
+
+# Assembly Line
+recipemap.assembly_line.name=Assembly Line
+gtadditions.machine.assembly_line.name=Assembly Line
+gregtech.multiblock.assembly_line.description=The Assembly Line is a large multiblock structure consisting of 5 to 16 "slices". In theory, it's large Assembling Machine, used for creating advanced crafting components.
 
 tile.ga_multiblock_casing.coke_oven_bricks.name=Coke Oven Bricks
 tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=Assembly Line Casing

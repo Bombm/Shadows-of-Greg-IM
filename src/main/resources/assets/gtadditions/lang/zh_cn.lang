@@ -627,6 +627,373 @@ item.meat.dustSmall=小堆肉末
 item.meat.dust=肉末
 
 gregtech.multiblock.coke_oven.description=焦炉是一台用来炼焦的多方块机器。它可以将煤炼成焦煤，褐煤炼成褐焦煤，原木炼成木炭，并同时伴有杂酚油作为副产物。
+
+## Higher Tier Machines
+
+# Cluster Mill
+recipemap.cluster_mill.name=多辊式轧机
+gtadditions.machine.cluster_mill.lv.name=基础多辊式轧机
+gtadditions.machine.cluster_mill.mv.name=进阶多辊式轧机
+gtadditions.machine.cluster_mill.hv.name=进阶多辊式轧机 II
+gtadditions.machine.cluster_mill.ev.name=进阶多辊式轧机 III
+gtadditions.machine.cluster_mill.iv.name=进阶多辊式轧机 IV
+gtadditions.machine.cluster_mill.luv.name=进阶多辊式轧机 V
+gtadditions.machine.cluster_mill.zpm.name=进阶多辊式轧机 VI
+gtadditions.machine.cluster_mill.uv.name=进阶多辊式轧机 VII
+
+# Electric Furnace
+gtadditions.machine.electric_furnace.iv.name=热应激发生器
+gtadditions.machine.electric_furnace.luv.name=热应激发生器 II
+gtadditions.machine.electric_furnace.zpm.name=热应激发生器 III
+gtadditions.machine.electric_furnace.uv.name=热应激发生器 IV
+
+# Macerator
+gtadditions.machine.macerator.iv.name=Universal Pulverizer II
+gtadditions.machine.macerator.iv.tooltip=矿石粉碎者 9001
+gtadditions.machine.macerator.luv.name=Universal Pulverizer III
+gtadditions.machine.macerator.luv.tooltip=矿石粉碎者 9002
+gtadditions.machine.macerator.zpm.name=Universal Pulverizer IV
+gtadditions.machine.macerator.zpm.tooltip=矿石粉碎者 9003
+gtadditions.machine.macerator.uv.name=Universal Pulverizer V
+gtadditions.machine.macerator.uv.tooltip=矿石粉碎者 9004
+
+# Alloy Smelter
+gtadditions.machine.alloy_smelter.iv.name=进阶合金炉 IV
+gtadditions.machine.alloy_smelter.luv.name=进阶合金炉 V
+gtadditions.machine.alloy_smelter.zpm.name=进阶合金炉 VI
+gtadditions.machine.alloy_smelter.uv.name=进阶合金炉 VII
+
+# Amplifabricator
+gtadditions.machine.amplifab.iv.name=进阶UU增幅液生产器 IV
+gtadditions.machine.amplifab.luv.name=进阶UU增幅液生产器 V
+gtadditions.machine.amplifab.zpm.name=进阶UU增幅液生产器 VI
+gtadditions.machine.amplifab.uv.name=进阶UU增幅液生产器 VII
+
+# Arc Furnace
+gtadditions.machine.arc_furnace.iv.name=进阶电弧炉 IV
+gtadditions.machine.arc_furnace.luv.name=进阶电弧炉 V
+gtadditions.machine.arc_furnace.zpm.name=进阶电弧炉 VI
+gtadditions.machine.arc_furnace.uv.name=进阶电弧炉 VII
+
+# Assembling Machine
+gregtech.machine.assembler.iv.name=进阶组装机 IV
+gtadditions.machine.assembler.luv.name=进阶组装机 V
+gtadditions.machine.assembler.zpm.name=进阶组装机 VI
+gtadditions.machine.assembler.uv.name=进阶组装机 VII
+
+# Autoclave
+gregtech.machine.autoclave.iv.name=进阶高压釜 IV
+gtadditions.machine.autoclave.luv.name=进阶高压釜 V
+gtadditions.machine.autoclave.zpm.name=进阶高压釜 VI
+gtadditions.machine.autoclave.uv.name=进阶高压釜 VII
+
+# Bender
+gtadditions.machine.bender.iv.name=进阶卷板机 IV
+gtadditions.machine.bender.luv.name=进阶卷板机 V
+gtadditions.machine.bender.zpm.name=进阶卷板机 VI
+gtadditions.machine.bender.uv.name=进阶卷板机 VII
+
+# Brewery
+gtadditions.machine.brewery.iv.name=进阶酿造室 IV
+gtadditions.machine.brewery.luv.name=进阶酿造室 V
+gtadditions.machine.brewery.zpm.name=进阶酿造室 VI
+gtadditions.machine.brewery.uv.name=进阶酿造室 VII
+
+# Canner
+gtadditions.machine.canner.iv.name=进阶装罐机 IV
+gtadditions.machine.canner.luv.name=进阶装罐机 V
+gtadditions.machine.canner.zpm.name=进阶装罐机 VI
+gtadditions.machine.canner.uv.name=进阶装罐机 VII
+
+# Centrifuge
+gtadditions.machine.centrifuge.iv.name=旋风分子离心机
+gtadditions.machine.centrifuge.iv.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.luv.name=旋风分子离心机 II
+gtadditions.machine.centrifuge.luv.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.zpm.name=旋风分子离心机 III
+gtadditions.machine.centrifuge.zpm.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.uv.name=旋风分子离心机 IV
+gtadditions.machine.centrifuge.uv.tooltip=Molecular Cyclone
+
+# Chemical Bath
+gtadditions.machine.chemical_bath.iv.name=进阶化学浸洗器 IV
+gtadditions.machine.chemical_bath.luv.name=进阶化学浸洗器 V
+gtadditions.machine.chemical_bath.zpm.name=进阶化学浸洗器 VI
+gtadditions.machine.chemical_bath.uv.name=进阶化学浸洗器 VII
+
+# Chemical Reactor
+gtadditions.machine.chemical_reactor.iv.name=进阶化学反应釜 IV
+gtadditions.machine.chemical_reactor.luv.name=进阶化学反应釜 V
+gtadditions.machine.chemical_reactor.zpm.name=进阶化学反应釜 VI
+gtadditions.machine.chemical_reactor.uv.name=进阶化学反应釜 VII
+
+# Compressor
+gregtech.machine.compressor.ev.name=进阶压缩机 III
+gtadditions.machine.compressor.iv.name=奇点压缩机
+gtadditions.machine.compressor.luv.name=奇点压缩机 II
+gtadditions.machine.compressor.zpm.name=奇点压缩机 III
+gtadditions.machine.compressor.uv.name=奇点压缩机 IV
+
+# Cutter
+gtadditions.machine.cutter.iv.name=进阶板材切割机 IV
+gtadditions.machine.cutter.luv.name=进阶板材切割机 V
+gtadditions.machine.cutter.zpm.name=进阶板材切割机 VI
+gtadditions.machine.cutter.uv.name=进阶板材切割机 VII
+
+# Distillery
+gtadditions.machine.distillery.iv.name=进阶蒸馏室 IV
+gtadditions.machine.distillery.luv.name=进阶蒸馏室 V
+gtadditions.machine.distillery.zpm.name=进阶蒸馏室 VI
+gtadditions.machine.distillery.uv.name=进阶蒸馏室 VII
+
+# Electrolyzer
+gregtech.machine.electrolyzer.ev.name=进阶电解机 III
+gtadditions.machine.electrolyzer.iv.name=Advanced Electrolyzer IV
+gtadditions.machine.electrolyzer.iv.tooltip=分子分解者E-4905
+gtadditions.machine.electrolyzer.luv.name=Elite Electrolyzer
+gtadditions.machine.electrolyzer.luv.tooltip=分子分解者E-4906
+gtadditions.machine.electrolyzer.zpm.name=Elite Electrolyzer II
+gtadditions.machine.electrolyzer.zpm.tooltip=分子分解者E-4907
+gtadditions.machine.electrolyzer.uv.name=Elite Electrolyzer III
+gtadditions.machine.electrolyzer.uv.tooltip=分子分解者E-4908
+
+# Electromagnetic Separator
+gtadditions.machine.electromagnetic_separator.iv.name=进阶电磁离析机 IV
+gtadditions.machine.electromagnetic_separator.luv.name=进阶电磁离析机 V
+gtadditions.machine.electromagnetic_separator.zpm.name=进阶电磁离析机 VI
+gtadditions.machine.electromagnetic_separator.uv.name=进阶电磁离析机 VII
+
+# Extractor
+gregtech.machine.extractor.ev.name=进阶提取机 III
+gtadditions.machine.extractor.iv.name=真空提取机
+gtadditions.machine.extractor.luv.name=真空提取机 II
+gtadditions.machine.extractor.zpm.name=真空提取机 III
+gtadditions.machine.extractor.uv.name=真空提取机 IV
+
+# Extruder
+gtadditions.machine.extruder.iv.name=进阶压模器 IV
+gtadditions.machine.extruder.luv.name=进阶压模器 V
+gtadditions.machine.extruder.zpm.name=进阶压模器 VI
+gtadditions.machine.extruder.uv.name=进阶压模器 VII
+
+# Fermenter
+gtadditions.machine.fermenter.iv.name=进阶发酵槽 IV
+gtadditions.machine.fermenter.luv.name=进阶发酵槽 V
+gtadditions.machine.fermenter.zpm.name=进阶发酵槽 VI
+gtadditions.machine.fermenter.uv.name=进阶发酵槽 VII
+
+# Fluid Canner
+gtadditions.machine.fluid_canner.iv.name=音速流体灌装机
+gtadditions.machine.fluid_canner.luv.name=音速流体灌装机 II
+gtadditions.machine.fluid_canner.zpm.name=音速流体灌装机 III
+gtadditions.machine.fluid_canner.uv.name=音速流体灌装机 IV
+
+# Fluid Extractor
+gtadditions.machine.fluid_extractor.iv.name=进阶流体提取机 IV
+gtadditions.machine.fluid_extractor.luv.name=进阶流体提取机 V
+gtadditions.machine.fluid_extractor.zpm.name=进阶流体提取机 VI
+gtadditions.machine.fluid_extractor.uv.name=进阶流体提取机 VII
+
+# Fluid Heater
+gtadditions.machine.fluid_heater.iv.name=进阶流体加热器 IV
+gtadditions.machine.fluid_heater.luv.name=进阶流体加热器 V
+gtadditions.machine.fluid_heater.zpm.name=进阶流体加热器 VI
+gtadditions.machine.fluid_heater.uv.name=进阶流体加热器 VII
+
+# Fluid Solidifier
+gtadditions.machine.fluid_solidifier.iv.name=进阶流体固化器 IV
+gtadditions.machine.fluid_solidifier.luv.name=进阶流体固化器 V
+gtadditions.machine.fluid_solidifier.zpm.name=进阶流体固化器 VI
+gtadditions.machine.fluid_solidifier.uv.name=进阶流体固化器 VII
+
+# Forge Hammer
+gtadditions.machine.forge_hammer.iv.name=进阶锻造锤 IV
+gtadditions.machine.forge_hammer.luv.name=进阶锻造锤 V
+gtadditions.machine.forge_hammer.zpm.name=进阶锻造锤 VI
+gtadditions.machine.forge_hammer.uv.name=进阶锻造锤 VII
+
+# Forming Press
+gtadditions.machine.forming_press.iv.name=进阶冲压机床 IV
+gtadditions.machine.forming_press.luv.name=进阶冲压机床 V
+gtadditions.machine.forming_press.zpm.name=进阶冲压机床 VI
+gtadditions.machine.forming_press.uv.name=进阶冲压机床 VII
+
+# Lathe
+gtadditions.machine.lathe.iv.name=进阶车床 IV
+gtadditions.machine.lathe.luv.name=进阶车床 V
+gtadditions.machine.lathe.zpm.name=进阶车床 VI
+gtadditions.machine.lathe.uv.name=进阶车床 VII
+
+# Microwave
+gtadditions.machine.microwave.iv.name=进阶微波炉 IV
+gtadditions.machine.microwave.luv.name=进阶微波炉 V
+gtadditions.machine.microwave.zpm.name=进阶微波炉 VI
+gtadditions.machine.microwave.uv.name=进阶微波炉 VII
+
+# Mixer
+gtadditions.machine.mixer.iv.name=进阶搅拌机 IV
+gtadditions.machine.mixer.luv.name=进阶搅拌机 V
+gtadditions.machine.mixer.zpm.name=进阶搅拌机 VI
+gtadditions.machine.mixer.uv.name=进阶搅拌机 VII
+
+# Ore Washer
+gtadditions.machine.ore_washer.iv.name=Advanced Ore Washing Plant IV
+gtadditions.machine.ore_washer.iv.tooltip=波轮洗矿厂I-360
+gtadditions.machine.ore_washer.luv.name=Elite Ore Washing Plant
+gtadditions.machine.ore_washer.luv.tooltip=波轮洗矿厂I-720
+gtadditions.machine.ore_washer.zpm.name=Elite Ore Washing Plant II
+gtadditions.machine.ore_washer.zpm.tooltip=波轮洗矿厂I-1080
+gtadditions.machine.ore_washer.uv.name=Elite Ore Washing Plant III
+gtadditions.machine.ore_washer.uv.tooltip=波轮洗矿厂I-1440
+
+# Packer
+gtadditions.machine.packer.iv.name=装箱者
+gtadditions.machine.packer.luv.name=装箱者 II
+gtadditions.machine.packer.zpm.name=装箱者 III
+gtadditions.machine.packer.uv.name=装箱者 IV
+
+# Unpacker
+gtadditions.machine.unpacker.iv.name=拆箱者
+gtadditions.machine.unpacker.luv.name=拆箱者 II
+gtadditions.machine.unpacker.zpm.name=拆箱者 III
+gtadditions.machine.unpacker.uv.name=拆箱者 IV
+
+# Plasma Arc Furnace
+gtadditions.machine.plasma_arc_furnace.iv.name=进阶等离子电弧炉 IV
+gtadditions.machine.plasma_arc_furnace.luv.name=进阶等离子电弧炉 V
+gtadditions.machine.plasma_arc_furnace.zpm.name=进阶等离子电弧炉 VI
+gtadditions.machine.plasma_arc_furnace.uv.name=进阶等离子电弧炉 VII
+
+# Polarizer
+gtadditions.machine.polarizer.iv.name=进阶两极磁化机 IV
+gtadditions.machine.polarizer.luv.name=进阶两极磁化机 V
+gtadditions.machine.polarizer.zpm.name=进阶两极磁化机 VI
+gtadditions.machine.polarizer.uv.name=进阶两极磁化机 VII
+
+# Laser Engraver
+gtadditions.machine.laser_engraver.iv.name=进阶精密激光蚀刻机 IV
+gtadditions.machine.laser_engraver.luv.name=进阶精密激光蚀刻机 V
+gtadditions.machine.laser_engraver.zpm.name=进阶精密激光蚀刻机 VI
+gtadditions.machine.laser_engraver.uv.name=进阶精密激光蚀刻机 VII
+
+# Shifter
+gtadditions.machine.sifter.iv.name=进阶筛选机 IV
+gtadditions.machine.sifter.luv.name=进阶筛选机 V
+gtadditions.machine.sifter.zpm.name=进阶筛选机 VI
+gtadditions.machine.sifter.uv.name=进阶筛选机 VII
+
+# Thermal Centrifuge
+gtadditions.machine.thermal_centrifuge.iv.name=Advanced Thermal Centrifuge IV
+gtadditions.machine.thermal_centrifuge.iv.tooltip=烈焰分离厂T-6350
+gtadditions.machine.thermal_centrifuge.luv.name=Elite Thermal Centrifuge
+gtadditions.machine.thermal_centrifuge.luv.tooltip=烈焰分离厂T-6360
+gtadditions.machine.thermal_centrifuge.zpm.name=Elite Thermal Centrifuge II
+gtadditions.machine.thermal_centrifuge.zpm.tooltip=烈焰分离厂T-6370
+gtadditions.machine.thermal_centrifuge.uv.name=Elite Thermal Centrifuge III
+gtadditions.machine.thermal_centrifuge.uv.tooltip=烈焰分离厂T-6380
+
+# Wiremill
+gtadditions.machine.wiremill.iv.name=进阶线材轧机 IV
+gtadditions.machine.wiremill.luv.name=进阶线材轧机 V
+gtadditions.machine.wiremill.zpm.name=进阶线材轧机 VI
+gtadditions.machine.wiremill.uv.name=进阶线材轧机 VII
+
+# Naquadah Reactor
+recipemap.naquadah_reactor.name=硅岩反应堆燃料
+gtadditions.machine.naquadah_reactor.mk1.name=硅岩反应堆 Mk I
+gtadditions.machine.naquadah_reactor.mk2.name=硅岩反应堆 Mk II
+gtadditions.machine.naquadah_reactor.mk3.name=硅岩反应堆 Mk III
+gtadditions.machine.naquadah_reactor.mk4.name=硅岩反应堆 Mk IV
+
+# Mass Fabricator
+recipemap.mass_fab.name=质量发生器
+gtadditions.machine.mass_fab.lv.name=基础质量发生器
+gtadditions.machine.mass_fab.mv.name=进阶质量发生器
+gtadditions.machine.mass_fab.hv.name=进阶质量发生器 II
+gtadditions.machine.mass_fab.ev.name=进阶质量发生器 III
+gtadditions.machine.mass_fab.iv.name=进阶质量发生器 IV
+gtadditions.machine.mass_fab.luv.name=进阶质量发生器 V
+gtadditions.machine.mass_fab.zpm.name=进阶质量发生器 VI
+gtadditions.machine.mass_fab.uv.name=进阶质量发生器 VII
+
+# Replicator
+gtadditions.machine.replicator.lv.name=基础复制机
+gtadditions.machine.replicator.lv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.mv.name=进阶复制机
+gtadditions.machine.replicator.mv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.hv.name=进阶复制机 II
+gtadditions.machine.replicator.hv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.ev.name=进阶复制机 III
+gtadditions.machine.replicator.ev.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.iv.name=进阶复制机 IV
+gtadditions.machine.replicator.iv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.luv.name=进阶复制机 V
+gtadditions.machine.replicator.luv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.zpm.name=进阶复制机 VI
+gtadditions.machine.replicator.zpm.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.uv.name=进阶复制机 VII
+gtadditions.machine.replicator.uv.tooltip=生产最纯净的元素
+
+# Bundler
+recipemap.bundler.name=Wire Bundling
+gtadditions.machine.bundler.lv.name=Basic Bundler
+gtadditions.machine.bundler.mv.name=Advanced Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler II
+gtadditions.machine.bundler.ev.name=Advanced Bundler III
+gtadditions.machine.bundler.iv.name=Advanced Bundler IV
+gtadditions.machine.bundler.luv.name=Elite Bundler
+gtadditions.machine.bundler.luv.tooltip=Lapinotron 3000
+gtadditions.machine.bundler.zpm.name=Elite Bundler II
+gtadditions.machine.bundler.zpm.tooltip=Lapinotron 6000
+gtadditions.machine.bundler.uv.name=Elite Bundler III
+gtadditions.machine.bundler.uv.tooltip=Lapinotron 9000
+
+# Machine Access Interface
+gtadditions.machine.machine_access_interface.name=Machine Access Interface
+gtadditions.machine.machine_access_interface.tooltip=Specialized Access Bus required for the Processing Array to hold the machines the Processing Array is operating on. Only holds valid machines.
+
+# Pump
+gtadditions.machine.pump.iv.name=进阶泵 IV
+gtadditions.machine.pump.luv.name=进阶泵 V
+gtadditions.machine.pump.zpm.name=进阶泵 VI
+gtadditions.machine.pump.uv.name=进阶泵 VII
+
+# Air Collector
+gregtech.machine.air_collector.ev.name=进阶空气收集器 III
+gtadditions.machine.air_collector.iv.name=大气收集器
+gtadditions.machine.air_collector.luv.name=大气收集器 II
+
+
+## Multiblocks
+
+gtadditions.multiblock.preview.location_end=very end
+
+# Plasma Turbine
+recipemap.plasma_generator.name=等离子涡轮燃料
+
+# Fusion Reactor
+gtadditions.machine.fusion_reactor.luv.name=核聚变反应堆控制电脑 Mk I
+gtadditions.machine.fusion_reactor.zpm.name=核聚变反应堆控制电脑 Mk II
+gtadditions.machine.fusion_reactor.uv.name=核聚变反应堆控制电脑 Mk III
+gregtech.multiblock.fusion_reactor_mk1.description=核聚变反应堆 Mk I 是一台可以通过聚变生产重元素的大型多方块机器。它可以使用LuV，ZPM或者UV等级的能源仓。每一个能源仓可以增加10MEU的能量缓存。
+gregtech.multiblock.fusion_reactor_mk2.description=核聚变反应堆 Mk II 是一台可以通过聚变生产重元素的大型多方块机器。它可以使用ZPM或者UV等级的能源仓。每一个能源仓可以增加20MEU的能量缓存。
+gregtech.multiblock.fusion_reactor_mk3.description=核聚变反应堆 Mk III 是一台可以通过聚变生产重元素的大型多方块机器。它只能使用UV等级的能源仓。每一个能源仓可以增加40MEU的能量缓存。
+gregtech.multiblock.fusion_reactor.heat=热力: %d
+
+# Processing Array
+recipemap.processing_array.name=Processing Array
+gtadditions.machine.processing_array.name=Processing Array
+gregtech.multiblock.processing_array.description=The Processing Array combines up to %d single block machine(s) in a single multiblock, effectively easing automation.
+gtadditions.multiblock.processing_array.distinct=Distinct Buses:
+gtadditions.multiblock.processing_array.distinct2=[Click %s to Toggle]
+gtadditions.multiblock.processing_array.distinct.yes=§aYes
+gtadditions.multiblock.processing_array.distinct.no=§cNo
+gtadditions.multiblock.processing_array.distinct.info=If enabled, each bus will be treated as fully distinct from each other for recipe lookup. Useful for things like Extruder Shapes, Laser Lenses, etc..
+gtadditions.multiblock.processing_array.locked=§cMachine Hatch Locked
+
+# Assembly Line
+recipemap.assembly_line.name=装配线
+gtadditions.machine.assembly_line.name=装配线
 gregtech.multiblock.assembly_line.description=装配线是一台大型多方块机器，包含有5到16片相似的重复结构。从理论上来讲，它是一个可以生产高级元件的大型的组装机。
 gregtech.multiblock.distill_tower.description=GA蒸馏塔是一台多方块机器，高度2到12层。它可以用来蒸馏液体，与蒸馏室不同的是，它可以一次性蒸馏出多种产物，并分别从每一层输出。
 gregtech.multiblock.fusion_reactor_mk1.description=核聚变反应堆 Mk I 是一台可以通过聚变生产重元素的大型多方块机器。它可以使用LuV，ZPM或者UV等级的能源仓。每一个能源仓可以增加100kEU的能量缓存。

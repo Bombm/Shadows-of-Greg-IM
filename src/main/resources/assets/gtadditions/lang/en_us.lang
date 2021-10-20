@@ -424,6 +424,25 @@ gtadditions.machine.replicator.luv.name=Advanced Replicator V
 gtadditions.machine.replicator.zpm.name=Advanced Replicator VI
 gtadditions.machine.replicator.uv.name=Advanced Replicator VII
 
+# Bundler
+recipemap.bundler.name=Wire Bundling
+gtadditions.machine.bundler.lv.name=Basic Bundler
+gtadditions.machine.bundler.mv.name=Advanced Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler II
+gtadditions.machine.bundler.ev.name=Advanced Bundler III
+gtadditions.machine.bundler.iv.name=Advanced Bundler IV
+gtadditions.machine.bundler.luv.name=Elite Bundler
+gtadditions.machine.bundler.luv.tooltip=Lapinotron 3000
+gtadditions.machine.bundler.zpm.name=Elite Bundler II
+gtadditions.machine.bundler.zpm.tooltip=Lapinotron 6000
+gtadditions.machine.bundler.uv.name=Elite Bundler III
+gtadditions.machine.bundler.uv.tooltip=Lapinotron 9000
+
+# Machine Access Interface
+gtadditions.machine.machine_access_interface.name=Machine Access Interface
+gtadditions.machine.machine_access_interface.tooltip=Specialized Access Bus required for the Processing Array to hold the machines the Processing Array is operating on. Only holds valid machines.
+
+# Pump
 gtadditions.machine.pump.iv.name=Advanced Pump IV
 gtadditions.machine.pump.luv.name=Advanced Pump V
 gtadditions.machine.pump.zpm.name=Advanced Pump VI
@@ -435,12 +454,36 @@ gtadditions.machine.air_collector.luv.name=Atmosphere Collector
 
 gtadditions.machine.replicator.tooltip=Producing The Purest Of Elements
 
+## Multiblocks
+
+gtadditions.multiblock.preview.location_end=very end
+
+# Plasma Turbine
+recipemap.plasma_generator.name=Plasma Turbine Fuels
+
+# Fusion Reactor
 gtadditions.machine.fusion_reactor.luv.name=Fusion Reactor Computer Mark 1
 gtadditions.machine.fusion_reactor.zpm.name=Fusion Reactor Computer Mark 2
 gtadditions.machine.fusion_reactor.uv.name=Fusion Reactor Computer Mark 3
 
 gtadditions.machine.coke_item_bus.name=[Deprecated] Coke Oven Chute
 gtadditions.machine.coke_fluid_hatch.name=[Deprecated] Coke Oven Faucet
+
+# Processing Array
+recipemap.processing_array.name=Processing Array
+gtadditions.machine.processing_array.name=Processing Array
+gregtech.multiblock.processing_array.description=The Processing Array combines up to %d single block machine(s) in a single multiblock, effectively easing automation.
+gtadditions.multiblock.processing_array.distinct=Distinct Buses:
+gtadditions.multiblock.processing_array.distinct2=[Click %s to Toggle]
+gtadditions.multiblock.processing_array.distinct.yes=§aYes
+gtadditions.multiblock.processing_array.distinct.no=§cNo
+gtadditions.multiblock.processing_array.distinct.info=If enabled, each bus will be treated as fully distinct from each other for recipe lookup. Useful for things like Extruder Shapes, Laser Lenses, etc..
+gtadditions.multiblock.processing_array.locked=§cMachine Hatch Locked
+
+# Assembly Line
+recipemap.assembly_line.name=Assembly Line
+gtadditions.machine.assembly_line.name=Assembly Line
+gregtech.multiblock.assembly_line.description=The Assembly Line is a large multiblock structure consisting of 5 to 17 "slices". In theory, it's a large Assembling Machine, used for creating advanced crafting components.
 
 tile.ga_multiblock_casing.coke_oven_bricks.name=Coke Oven Bricks
 tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=Assembly Line Casing
